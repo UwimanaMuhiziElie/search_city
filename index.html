@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Nunito+Sans&display=swap" rel="stylesheet">
+    <title>Search IT</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="header">
+        <span>Search IT</span>
+        <input type='text' name="search" placeholder="City or State" />
+        <button>Search</button>
+    </div>
+    <div class="result-list">
+
+        <h1>Result List</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th> City</th>
+                    <th> State</th>
+                    <th> Population</th>
+                    <th> Growth</th>
+                </tr>
+            <tbody id='tbody'>
+
+            </tbody>
+            </thead>
+        </table>
+        <p id='error'></p>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
